@@ -1,114 +1,125 @@
-# 🛒 **Gerenciador de Estoque Interativo** 📦
+# 🛒 **Stock Manager** 📦
 
-Um sistema interativo para gerenciar um estoque de produtos. Com ele, você pode adicionar, remover, visualizar e modificar produtos no estoque através de um menu simples e intuitivo no terminal.
-
----
-
-## 🚀 **Visão Geral do Projeto**
-
-O programa é um **Gerenciador de Estoque**, construído em Python, que permite ao usuário gerenciar uma lista de produtos com suas quantidades e atributos (preço, quantidade, nome, etc.) de forma simples e interativa.
-
-Este projeto oferece a funcionalidade completa para:
-
-- **Adicionar produtos ao estoque**
-- **Remover produtos do estoque**
-- **Modificar atributos específicos de um produto**
-- **Visualizar estoque ativo**
-- **Gerenciar entradas no estoque de forma intuitiva**
+An interactive system for managing a product inventory. With this, you can add, remove, view, and modify products in the inventory through a simple and intuitive terminal menu.
 
 ---
 
-## 🛠️ **Recursos Principais**
+## 🚀 **Project Overview**
 
-### Funcionalidades Implementadas:
-1. **Adicionar Produto ao Estoque**: Insere produtos no estoque com quantidade e preço.
-2. **Remover Produtos do Estoque**: Remove um produto específico do estoque pelo código.
-3. **Modificar Atributos de um Produto**: Altera atributos como nome, quantidade ou preço.
-4. **Visualizar Estoque Ativo**: Lista todos os produtos em estoque com suas informações.
-5. **Gerenciamento com códigos gerados automaticamente**: Evita duplicações ao adicionar produtos.
-6. **Validação de entradas**: O sistema verifica entradas inválidas automaticamente.
-7. **Menu intuitivo com opções claras** para navegação no programa.
+The program is a **Stock Manager**, built in Python, which allows the user to manage a list of products with their quantities and attributes (price, quantity, name, etc.) in a simple and interactive way.
 
----
+This project provides full functionality to:
 
-## 💾 **Configuração**
-
-### Pré-requisitos
-- Python 3.x deve estar instalado no seu sistema.
-- O ambiente deve permitir a execução de scripts Python.
+* **Add products to the inventory**
+* **Remove products from the inventory**
+* **Modify specific attributes of a product**
+* **View active inventory**
+* **Manage inventory entries in an intuitive way**
 
 ---
 
-## ▶️ **Como Executar**
+## 🛠️ **Key Features**
 
-1. Clone este repositório no seu ambiente local:
-```bash
-git clone https://github.com/seu-usuario/gerenciador-estoque.git
+### Implemented Functionalities:
+
+1. **Add Product to Inventory**: Inserts products into the inventory with quantity and price.
+2. **Remove Products from Inventory**: Removes a specific product from the inventory by code.
+3. **Modify Attributes of a Product**: Changes attributes such as name, quantity, or price.
+4. **View Active Inventory**: Lists all products in the inventory with their information.
+5. **Management with Automatically Generated Codes**: Prevents duplicates when adding products.
+6. **Input Validation**: The system automatically checks for invalid entries.
+7. **Intuitive Menu with Clear Options** for program navigation.
+
+---
+
+## 💾 **Setup**
+
+### Prerequisites
+
+* Python 3.x must be installed on your system.
+* The environment must allow execution of Python scripts.
+
+---
+
+## ▶️ **How to Run**
+
+1. Clone this repository to your local environment:
+
+   ```bash
+   git clone https://github.com/your-username/gerenciador-estoque.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd gerenciador-estoque
+   ```
+
+3. Run the code in the terminal with:
+
+   ```bash
+   python your_file.py
+   ```
+
+---
+
+## 📚 **Menu Functionalities**
+
+After starting the program, you will see the following menu in the terminal:
+
 ```
-
-2. Navegue até a pasta do projeto:
-```bash
-cd gerenciador-estoque
-```
-
-3. Execute o código no terminal com:
-```bash
-python seu_arquivo.py
-```
-
----
-
-## 📚 **Funcionalidades por Menu**
-
-Após iniciar o programa, você verá o seguinte menu no terminal:
-
-```
-* Gerenciador de Estoque *
+* Stock Manager *
 -------------------------------------------
-1- Adicionar Produto ao Estoque
-2- Remover Produtos do Estoque
-3- Mudar Atributos de um Item
-4- Sair
+1- Add Product to Inventory
+2- Remove Products from Inventory
+3- Change Item Attributes
+4- Exit
 ```
 
-### Opções:
+### Options:
 
-1. **Adicionar Produto ao Estoque**
-   - Insere um produto ao estoque com seu nome, quantidade e preço (opcional).
-   
-2. **Remover Produtos do Estoque**
-   - Remove um produto do estoque através de seu código único gerado automaticamente.
+1. **Add Product to Inventory**
 
-3. **Mudar Atributos de um Item**
-   - Modifica atributos específicos de um produto:
-     - Nome
-     - Preço
-     - Quantidade
+   * Inserts a product into the inventory with its name, quantity, and an optional price.
 
-4. **Sair**
-   - Encerra o programa.
+2. **Remove Products from Inventory**
 
----
+   * Removes a product from the inventory using its automatically generated unique code.
 
-## ⚙️ **Tecnologias Utilizadas**
+3. **Change Item Attributes**
 
-- **Python 3.x**: Linguagem de programação principal.
-- **Biblioteca `os`**: Para limpar a tela no console.
-- **Gerenciamento de listas com dicionários**: Estrutura central de dados.
+   * Modifies specific attributes of a product:
+
+     * Name
+     * Price
+     * Quantity
+
+4. **Exit**
+
+   * Closes the program.
 
 ---
 
-## 🎮 **Exemplo de Fluxo**
+## ⚙️ **Technologies Used**
 
-1. O programa exibe o menu principal.
-2. O usuário escolhe **Adicionar Produto ao Estoque**.
-3. O sistema solicita informações como:
-   - Nome do produto
-   - Quantidade disponível
-   - Preço (opcional)
-4. O produto é adicionado ao estoque com um código gerado automaticamente.
-5. O usuário pode visualizar a lista de produtos no estoque.
+* **Python 3.x**: Main programming language.
+* **`os` Library**: To clear the console screen.
+* **List Management with Dictionaries**: Central data structure.
 
 ---
 
-Agora você tem um gerenciador de estoque funcional pronto para uso! 🚀 Boa sorte com seu gerenciamento! 🛒✨
+## 🎮 **Sample Workflow**
+
+1. The program displays the main menu.
+2. The user chooses **Add Product to Inventory**.
+3. The system prompts for information such as:
+
+   * Product name
+   * Available quantity
+   * Price (optional)
+4. The product is added to the inventory with an automatically generated code.
+5. The user can view the list of products in the inventory.
+
+---
+
+Now you have a functional Stock Manager ready to use! 🚀 Good luck with your management! 🛒✨
