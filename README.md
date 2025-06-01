@@ -46,7 +46,7 @@ This project provides full functionality to:
 1. Clone this repository to your local environment:
 
    ```bash
-   git clone https://github.com/your-username/gerenciador-estoque.git
+   git clone https://github.com/jp9141joao/stock-manager.git
    ```
 
 2. Navigate to the project folder:
